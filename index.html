@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>JaneDoe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<header>
+    <div class="header">
+        <a class="logo" href="#">
+            <div class="leftLogo"></div>
+            <div class="rightLogo"></div>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a>
+                        Jane Doe
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        Tell us about yourself
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        Slider
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+<article>
+    <section class="section-profile">
+        <div class="container">
+                <img src="./img/JaneDoeAvatar.png">
+            <div class="profileCard">
+
+                    <h2>
+                        Jane Doe
+                    </h2>
+                    <div class="profileCard-meta">
+                        <div>
+                            <p class="cardMeta-Title">Date of birth</p>
+                            <p class="cardMeta-Value">21.04.2001</p>
+                        </div>
+                       <div>
+                           <p class="cardMeta-Title">Gender </p>
+                           <p  class="cardMeta-Value">Female</p>
+                       </div>
+                       <div>
+                           <p class="cardMeta-Title">Country</p>
+                           <p  class="cardMeta-Value">Corea</p>
+                       </div>
+
+                    </div>
+                    <h5>About me</h5>
+                    <div class="aboutMe-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="decorSquare1"></div>
+        <div class="decorSquare2"></div>
+    </section>
+    <section class="section-tellUs">
+        <div class="container">
+            <h2>Tell us about yourself</h2>
+                <form class="tellUsForm" lang="en">
+                    <div class="tellUsColumn tellUsFirstColumn">
+                        <div class="tellUsInput">
+                            <label for="client_name">Your name</label>
+                            <input class="inputField" maxlength="24" id="client_name" name="client_name" type="text" placeholder="Tell us your name">
+                        </div>
+                        <div class="tellUsInput">
+                            <label for="client_gender">Your gender</label>
+                            <input class="inputField"  id="client_gender" name="client_gender" placeholder="Choose your gender" readonly required>
+                            <img src="./img/dropdownArrow.svg">
+                            <ul tabindex="0"  id="client_select_list" style="display: none">
+                                <li value="male">
+                                    Male
+                                </li>
+                                <li value="female">
+                                    Female
+                                </li>
+                                <li value="other">
+                                    Other
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div  class="tellUsColumn tellUsSecondColumn" style="visibility: hidden">
+                        <div  class="tellUsInput">
+                            <label for="client_country">Your country</label>
+                            <input class="inputField"  id="client_country" name="client_country" >
+                        </div>
+                        <div  class="tellUsInput" >
+                            <label for="client_city">Your City</label>
+                            <input class="inputField"  id="client_city" name="client_city" >
+                        </div>
+                        <div class="tellUsInput">
+                            <label for="client_birth">Your date of birth</label>
+                            <input class="inputField"  id="client_birth" type="text" name="client_birth" placeholder="dd.mm.yyyy" >
+                        </div>
+                    </div>
+                    <div class="tellUsColumn tellUsUploadColumn" style="visibility: hidden">
+                        <div class="uploadBox">
+                            <p>Proof your identity with some documents</p>
+                            <label for="client_file">Add document</label>
+                        </div>
+                        <input class="inputField" id="client_file" type="file" >
+                        <div id="file-chosen"  style="visibility: hidden">
+                            <div class="file_icon"></div>
+                            <div class="file_description">
+                                <p class="file_name">File_name_001</p>
+                                <p class="file_props">JPG 2,5 mb</p>
+                            </div>
+                            <img src="./img/deleteIcon.svg">
+                       </div>
+                    </div>
+                    <input disabled id="client_send" class="sendBtn" type="submit" value="Send info">
+                    <div id="completeFrom">
+                        <div class="completeBox">
+                            <img src="./img/complete.svg"/>
+                        </div>
+                        <p>Completed</p>
+                    </div>
+                </form>
+        </div>
+        <div class="decorSquare3"></div>
+        <div class="decorSquare4"></div>
+        <div class="decorSquare5"></div>
+        <div class="decorSquare6"></div>
+        <div class="decorSquare7"></div>
+        <div class="decorSquare8"></div>
+    </section>
+    <section class="section-slider">
+        <div class="container">
+            <div class="slider">
+                <input checked type="radio"  name="slider" id="slide1">
+                <input type="radio"  name="slider" id="slide2">
+                <input type="radio"  name="slider" id="slide3">
+                <div class="slider-wrapper">
+                    <div class="wrapper-inner">
+
+
+                    <div class="slide">
+                        <div class="slide-text">
+                            <h2>Slide this photo</h2>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                        <img src="./img/SliderPhoto.png"/>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <h2>Slide this photo</h2>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                        <img src="./img/SliderPhoto.png"/>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <h2>Slide this photo</h2>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                        <img src="./img/SliderPhoto.png"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+                <div class="slider-dots">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+</main>
+</body>
+</html>
