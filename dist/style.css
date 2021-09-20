@@ -694,7 +694,8 @@ main .section-slider {
           position: relative;
           width: 25%;
           float: left;
-          overflow: hidden; }
+          overflow: hidden;
+          border-radius: 30px; }
           main .section-slider .container .slider .slider-wrapper .wrapper-inner .slide .slide-text {
             width: 100%;
             position: absolute;
