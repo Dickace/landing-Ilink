@@ -718,6 +718,9 @@ main .section-slider {
             overflow: hidden;
             display: block;
             height: 535px;
+            width: 100%;
+            min-width: 1440px;
+            border-radius: 30px;
             max-height: 535px; }
     main .section-slider .container .slider .slider-controls {
       position: absolute;
